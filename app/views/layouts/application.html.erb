@@ -10,23 +10,8 @@
 <meta name="description" content="">
 <meta name="author" content="Themelize.me">
 
-<!-- Bootstrap CSS -->
-<link href="assets/bootstrap/bootstrap.css" rel="stylesheet">
-<link href="assets/bootstrap/responsive.css" rel="stylesheet">
-
-<!-- Flexslider -->
-<link href="assets/bootstrap/flexslider.css" rel="stylesheet">
-
-<!-- Theme style -->
-<link href="assets/bootstrap/theme-style.css" rel="stylesheet">
-
-<!--Your custom colour override-->
-<link href="assets/bootstrap/colour-red.css" id="colour-scheme" rel="stylesheet">
-
-<!-- Your custom override -->
-<link href="assets/bootstrap/custom-style.css" rel="stylesheet">
-
-<%= stylesheet_link_tag "application" %>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+<%= javascript_include_tag "application" %>
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
