@@ -12,6 +12,13 @@
  */
 
 
+// bootstrap
+@import "bootstrap/bootstrap";
+@import "bootstrap/responsive";
+@import "bootstrap/colour-red";
+@import "bootstrap/theme-style";
+@import "bootstrap/flexslider";
+
 // Custom Sass
 @import "sass/layout/layout";
 @import "sass/header/header";
