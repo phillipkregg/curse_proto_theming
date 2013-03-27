@@ -1,0 +1,27 @@
+
+#navigation {
+  .header {
+    height: 110px;
+    background: black;
+    margin-bottom: 20px;
+    
+    .header-inner .container {
+      a.brand {
+        margin-top: -5px;
+        margin-right: 40px;
+      }
+      
+      .features {
+        ul.thumbnails {
+          margin-top: 50px;
+        }
+      }
+      
+      .social-media {
+        margin-top: 40px;
+      }
+      
+    }
+    
+  }// end .header
+}// end #navigation
