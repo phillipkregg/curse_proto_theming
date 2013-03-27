@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require html5shim
 //= require bootstrap
 //=	require jquery.quicksand
 //= require jquery.flexslider-min
+//= require script
