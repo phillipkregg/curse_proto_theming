@@ -4,77 +4,7 @@
  * Written by Themelize.me (http://themelize.me)
  * 
  *******************************************************/
-.clearfix {
-  *zoom: 1;
-}
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.clearfix:after {
-  clear: both;
-}
-.hide-text {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-.input-block-level {
-  display: block;
-  width: 100%;
-  min-height: 30px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-body,
-html {
-  font-family: "Open Sans", Arial, serif;
-  background: #ffffff;
-}
-h1 {
-  font-size: 31.5px;
-}
-h2 {
-  font-size: 27.3px;
-}
-h3 {
-  font-size: 24.5px;
-}
-h4 {
-  font-size: 17.5px;
-}
-h5 {
-  font-size: 14px;
-}
-h6 {
-  font-size: 11.9px;
-}
-h1 small {
-  font-size: 21.7px;
-}
-h2 small {
-  font-size: 14.700000000000001px;
-}
-h3 small {
-  font-size: 14px;
-}
-h4 small {
-  font-size: 14px;
-}
-.page-title {
-  margin: 0;
-}
-.page-title small {
-  color: rgba(51, 51, 51, 0.5);
-}
-a:focus {
-  outline: none;
-}
+
 .colour-switcher a {
   text-indent: -10000px;
   display: inline-block;
