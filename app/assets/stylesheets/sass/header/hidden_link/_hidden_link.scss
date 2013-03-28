@@ -1,0 +1,48 @@
+
+#header-hidden-link {
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+#header-hidden-link a.show-hide,
+#header-hidden-link a.top-link {
+  font-size: 0;
+  line-height: 1;
+  background: #55a79a;
+  padding: 0 10px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  height: 20px;
+  display: block;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+#header-hidden-link a.show-hide i,
+#header-hidden-link a.top-link i {
+  font-size: 16px;
+  line-height: 1;
+}
+#header-hidden-link a.show-hide:hover,
+#header-hidden-link a.top-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+#header-hidden-link a.show-hide > i:before {
+  content: "\f078";
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  font-style: normal;
+}
+#header-hidden-link a.show-hide.open > i:before {
+  content: "\f077";
+}
+.show-hide-open {
+  height: auto !important;
+  min-height: 40px;
+  max-height: 40000px;
+}
+.show-hide-close {
+  height: 0;
+  overflow: hidden;
+}

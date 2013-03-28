@@ -24,7 +24,11 @@
 
 // Custom Sass
 @import "sass/globals/globals";
+@import "sass/colour_switcher/colour_switcher";
+@import "sass/header/hidden_link/hidden_link";
 @import "sass/layout/layout";
+@import "sass/highlighted/highlighted";
+
 @import "sass/header/header";
 @import "sass/breadcrumb/breadcrumb";
 @import "sass/blog/blog";

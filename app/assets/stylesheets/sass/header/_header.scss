@@ -1,14 +1,20 @@
 
+@import "navigation";
+
+// Navigation overrides
 #navigation {
   .header {
     height: 110px;
     background: black;
     margin-bottom: 20px;
     
-    .header-inner .container {
+    .header-inner {
+      
       a.brand {
-        //margin-top: -5px;
+        
         margin-right: 40px;
+        position: relative;
+        bottom: 5px;
       }
       
       .features {

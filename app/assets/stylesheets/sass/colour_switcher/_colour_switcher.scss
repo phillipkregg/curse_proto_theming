@@ -1,0 +1,32 @@
+.colour-switcher a {
+  text-indent: -10000px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+.colour-switcher a:hover,
+.colour-switcher a.active {
+  border: 3px solid #ffffff;
+}
+.colour-switcher p {
+  margin-top: 1em;
+}
+.colour-switcher .green {
+  background: #55a79a;
+}
+.colour-switcher .red {
+  background: #be3e1d;
+}
+.colour-switcher .blue {
+  background: #00adbb;
+}
+.colour-switcher.page a {
+  width: 200px;
+  height: 200px;
+  border: 3px solid rgba(36, 36, 36, 0.2);
+}
+.colour-switcher.page a:hover,
+.colour-switcher.page a.active {
+  border: 3px solid rgba(36, 36, 36, 0.6);
+}
