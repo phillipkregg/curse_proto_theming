@@ -1,13 +1,14 @@
 
 
 .blog-post {  
-    background: white;    
+    background: white;  
+    padding-top: 40px;  
     
     .media {
-      //padding: 5px;
-      .row-fluid {
-        
+      .span1 {
+        padding-left: 10px;
       }
+      
     }
   
 }
